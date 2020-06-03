@@ -40,7 +40,7 @@ if [ ! -x "$HOME/.config/pcmanfm/LXDE/" ]; then
     chown -R $USER:$USER $HOME
 fi
 
-cp -f rc.xml /etc/xdg/openbox/rc.xml
+cp -f /usr/local/lib/web/rc.xml /etc/xdg/openbox/rc.xml
 # nginx workers
 sed -i 's|worker_processes .*|worker_processes 1;|' /etc/nginx/nginx.conf
 
