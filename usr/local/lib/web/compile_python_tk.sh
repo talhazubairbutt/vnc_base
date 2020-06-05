@@ -9,5 +9,5 @@ if test -f "$FILE"; then
 fi
 cd /usercode 
 echo "Executing Program..." 
-python3.8 HelloWorldTkinker.py&
+python3.8 HelloWorldTkinter.py&
 echo $! >/usercode/pid.txt
