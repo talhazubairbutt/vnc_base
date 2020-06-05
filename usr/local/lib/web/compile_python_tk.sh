@@ -1,0 +1,1 @@
+echo "Initializing process..." && export DISPLAY=:1.0 && cd /usercode && echo "Executing Program..." && python3.8 HelloWorldTkinker.py
